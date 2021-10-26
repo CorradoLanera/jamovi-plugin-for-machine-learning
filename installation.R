@@ -17,5 +17,5 @@ edit_r_profile()
 # This should states it found Jamovi
 jmvtools::check()
 
-
+# This should finish stating "Module installed successfully"
 jmvtools::install()
