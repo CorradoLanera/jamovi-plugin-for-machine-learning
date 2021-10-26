@@ -1,22 +1,27 @@
-Package: MachineLearning
 Type: Package
+Package: MachineLearning
 Title: What the Package Does (Title Case)
 Version: 0.0.0
 Author: Who wrote it
 Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: More about what it does (maybe more than one line) Use four
+    spaces when indenting paragraphs within the Description.
 License: What license is it under?
+Imports: 
+    BBmisc,
+    e1071,
+    ggplot2 (>= 3.3.0),
+    ggpubr,
+    jmvcore (>= 0.8.5),
+    kknn,
+    mlr3,
+    mlr3learners,
+    mlr3measures,
+    mlr3viz,
+    precrec,
+    R6,
+    ranger,
+    rpart,
+    rpart.plot
 Encoding: UTF-8
 LazyData: true
-Imports: jmvcore (>= 0.8.5), R6, mlr3, mlr3measures,
- mlr3learners, ggplot2 (>= 3.3.0), precrec, ggpubr, rpart, rpart.plot, BBmisc, kknn, e1071
-
-
-
-
-
-
-
-
-
