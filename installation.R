@@ -1,7 +1,18 @@
+## After have installed Jamovi (tested on ver. 2.2.2)
+
+# install.packages("jmvtools")
 library(jmvtools)
+
+# install.packages("usethis")
 library(usethis)
 
 
+
+
+# This should state it found Jamovi...
+jmvtools::check()
+
+# If Jamovi is not found: 
 edit_r_profile()
 # add there:
 #
@@ -13,9 +24,8 @@ edit_r_profile()
 #
 # Next, save and close the .Rprofile file, and restart R.
 
-
-# This should states it found Jamovi
+# Now, this "must" state it found Jamovi
 jmvtools::check()
 
-# This should finish stating "Module installed successfully"
+# Finally, this should finish stating "Module installed successfully"
 jmvtools::install()
