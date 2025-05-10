@@ -1,7 +1,7 @@
-## After have installed Jamovi (tested on ver. 2.2.2)
+## After have installed Jamovi (tested on ver. 2.6.44.0)
 
-# install.packages("jmvtools")
-library(jmvtools)
+# install.packages('jmvtools', repos=c('https://repo.jamovi.org', 'https://cran.r-project.org'))
+library(jmv)
 
 # install.packages("usethis")
 library(usethis)
@@ -10,9 +10,9 @@ library(usethis)
 
 
 # This should state it found Jamovi...
-jmvtools::check()
 
-# If Jamovi is not found: 
+
+# If Jamovi is not found:
 edit_r_profile()
 # add there:
 #
@@ -20,7 +20,7 @@ edit_r_profile()
 #
 # e.g.:
 #
-# options(jamovi_home = "C:\\Program Files\\jamovi 2.2.2.0")
+# options(jamovi_home = "C:\\Program Files\\jamovi 2.6.44.0")
 #
 # Next, save and close the .Rprofile file, and restart R.
 
